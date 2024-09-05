@@ -77,11 +77,12 @@ h1 {
     width: 400px;
     height: 400px;
     object-fit: cover;
+    box-shadow: 2px 1px 9px -3px #000000;
 }
 
 .bio-container {
     padding: 30px;
-    border: 2px solid black;
+    box-shadow: 3px 3px 9px -4px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -106,8 +107,31 @@ h1 {
     grid-gap: 3rem;
 }
 
+.project-image {
+    background-color: rgb(231, 54, 15);
+    color: white;
+    max-width: 100%;
+}
+
 .project-card {
-    
+    box-shadow: 2px 1px 9px -3px #000000;
+}
+
+.project-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.project-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-buttons {
+    display: flex;
 }
 
 .contact-info {
