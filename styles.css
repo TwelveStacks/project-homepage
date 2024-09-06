@@ -91,7 +91,7 @@ h1 {
     left: 50%;
     transform: translate(-50%) ;
     font-size: 4.5rem;
-    color: red;
+    color: white;
     text-align: center;
     padding: 30px;
     width: 100%;
@@ -172,5 +172,23 @@ h1 {
 }
 
 .contact-info {
-    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(24, 125, 208);
+    color: white;
+    display: flex;
+}
+
+.contact-info h1 {
+    font-size: 2rem;
+}
+
+.footer-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-right-side img {
+    max-height: 300px;
+    width: 100%;
 }
