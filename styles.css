@@ -238,7 +238,7 @@ h1 {
     }
 
     .bio-container {
-        width: 400px;
+        max-width: 400px;
     }
 }
 
